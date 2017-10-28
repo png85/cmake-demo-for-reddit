@@ -1,0 +1,3 @@
+add_library(spectogram STATIC spectogram.cpp spectogram.h)
+target_include_directories(spectogram PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(spectogram PUBLIC cxx_aggregate_default_initializers)

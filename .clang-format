@@ -1,0 +1,15 @@
+BasedOnStyle: WebKit
+ColumnLimit: 120
+Standard: Cpp11
+
+AlignAfterOpenBracket: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+AlignOperands: true
+
+AllowShortFunctionsOnASingleLine: Empty
+
+BreakBeforeInheritanceComma: true
+
+FixNamespaceComments: true
